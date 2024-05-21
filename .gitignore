@@ -1,0 +1,8 @@
+# ignored files
+*.json
+*.iml
+
+# ignored dir
+.data
+.idea
+package.json
