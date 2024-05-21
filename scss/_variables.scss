@@ -1,0 +1,58 @@
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+
+
+
+//Variables
+
+
+
+//TODO CONVERT COLORS TO PSD COLORS IN RGBA
+
+//PRIMARY COLORS
+$highlight: lightgreen;
+$primary: red;
+$secondary: blue;
+$tertiary: orange;
+$Tertiary2nd: #0ff;
+
+
+
+//MIXINS
+//=======
+
+//  CUSTOM FONT
+@mixin specialFont {
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 300;
+}
+
+// MENU Buttons
+@mixin MenuLinks {
+  
+  @include specialFont;
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  color: white;
+  background-color: rgba( 0,0,0,0.3);
+
+  &:hover {
+    background-color: green;
+
+
+    a {
+      color: blue;
+      
+    }
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+}

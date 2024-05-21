@@ -1,0 +1,379 @@
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+#home {
+  width: 99.7vw;
+  height: 100vh;
+  background: url("../imgs/background/background.png") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#homeTitle {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  margin: 28% 0 0 0;
+  flex-direction: column; }
+  #homeTitle h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: lightgreen;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300; }
+    #homeTitle h1 span {
+      color: red; }
+  #homeTitle .btn-join {
+    height: 20vh;
+    width: 50%;
+    margin: 0 25%;
+    background-color: green;
+    border-radius: 10px 10px;
+    box-shadow: -2px 2px rgba(0, 0, 0, 0.3);
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300; }
+    #homeTitle .btn-join a {
+      color: white;
+      font-size: 2rem; }
+    #homeTitle .btn-join:hover {
+      background-color: lightgreen; }
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-around;
+  justify-content: flex-start;
+  margin: 0; }
+  header .title {
+    width: 89%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300;
+    font-size: 1rem; }
+    header .title .headerLogo {
+      width: 50px;
+      height: 100%; }
+    header .title p {
+      font-size: 1.6rem;
+      color: #fff; }
+  header .main-nav {
+    display: none; }
+  header .mobile-nav {
+    height: 100%;
+    width: 30%; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+  .menu li {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 5vh;
+    font-size: 2rem;
+    color: #ffffff; }
+    .menu li:hover {
+      background-color: green; }
+      .menu li:hover a {
+        color: blue; }
+    .menu li a {
+      text-decoration: none;
+      color: #fff; }
+    .menu li .current {
+      background: #0000ff;
+      color: lightgreen; }
+    .menu li a {
+      text-decoration: none;
+      color: #fff; }
+  .menu p {
+    text-align: center; }
+
+#features {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.features-titlebox {
+  width: 100vw;
+  height: 20%;
+  background: url("../imgs/classroom-half.jpg") no-repeat center center, rgba(0, 0, 0, 0.8);
+  background-size: cover; }
+  .features-titlebox h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    font-size: 3rem;
+    color: lightgreen;
+    text-shadow: 2px 1px #000;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300; }
+
+.feature-container {
+  display: flex;
+  flex-direction: column; }
+  .feature-container .feature-box {
+    width: 90%;
+    height: 50vh;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    box-shadow: -2px 3px #000;
+    margin: 2% auto;
+    justify-content: space-around; }
+    .feature-container .feature-box img {
+      width: 100%;
+      height: 50%;
+      border-radius: 10px 10px; }
+    .feature-container .feature-box h3 {
+      color: lightgreen;
+      text-shadow: -2px 1px rgba(0, 0, 0, 0.5);
+      font-size: 2rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 5vh;
+      width: 100%;
+      margin: 0;
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: 300; }
+    .feature-container .feature-box hr {
+      width: 80%;
+      margin-top: -12px; }
+    .feature-container .feature-box p {
+      margin: 5%; }
+
+#about {
+  width: 100vw;
+  height: 50vh; }
+  #about .about-header {
+    width: 100%;
+    height: 20vh;
+    background: url("../imgs/kids-on-pg-hero-8.2015.jpg") no-repeat center center;
+    background-size: cover;
+    font-size: 2.5rem;
+    color: lightgreen;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.5); }
+  #about h3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: 300; }
+  #about p {
+    margin: 5%;
+    width: 90%; }
+
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+footer {
+  background-color: brown;
+  width: 100vw;
+  height: 50vh;
+  text-align: center; }
+  footer > a {
+    text-decoration: none;
+    color: lightgreen; }
+  footer P {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: white; }
+    footer P span {
+      font-size: 2rem; }
+  footer .map {
+    background-color: black;
+    height: 50%;
+    width: 100%; }
+
+.sub-footer {
+  height: 10vh;
+  width: 100%;
+  border: 1px dotted white;
+  margin-bottom: 0; }
+  .sub-footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 2em; }
+    .sub-footer p span {
+      font-size: 1.5em; }
+    .sub-footer p a {
+      text-decoration: none;
+      color: #0ff; }
+      .sub-footer p a:hover {
+        color: lightgreen; }
+
+@media (min-width: 700px) {
+  #home {
+    width: 100vw; }
+
+  header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50px;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.5);
+    flex-direction: row;
+    align-content: space-around; }
+    header .title {
+      margin: 0 2%;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 40%; }
+    header .main-nav {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      justify-content: flex-start; }
+      header .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%; }
+      header .main-nav li {
+        border-radius: 10px 10px;
+        height: 60%;
+        width: 20%;
+        font-family: 'Bubblegum Sans', cursive;
+        font-weight: 300;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 2rem; }
+        header .main-nav li:hover {
+          background-color: green; }
+          header .main-nav li:hover a {
+            color: blue; }
+        header .main-nav li a {
+          text-decoration: none;
+          color: #fff; }
+
+  #mobile-nav {
+    display: none; }
+
+  #homeTitle {
+    height: 30vh;
+    width: 60vw;
+    margin: 50vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #homeTitle h1 {
+      font-size: 3rem;
+      margin: 0; }
+    #homeTitle .btn-join {
+      height: 8vh;
+      width: 30%;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      align-content: space-around; }
+      #homeTitle .btn-join a {
+        margin: 0 auto;
+        font-size: 4.5rem; }
+
+  #features {
+    height: 100vh;
+    width: 100%; }
+    #features .features-titlebox {
+      height: 40vh; }
+    #features .feature-container {
+      display: flex;
+      flex-direction: row; }
+      #features .feature-container h2 {
+        margin: 0;
+        flex-basis: 50%;
+        height: 10%;
+        padding: 0;
+        background-color: red;
+        border: 1px dashed purple;
+        justify-content: space-around; }
+      #features .feature-container .feature-box {
+        width: 20%; }
+
+  .about-header {
+    display: flex;
+    flex-direction: column; }
+    .about-header h2 {
+      text-align: center;
+      width: 100%; }
+
+  .footer {
+    height: 20vh; }
+    .footer .map {
+      height: 90%;
+      width: 100%;
+      position: relative;
+      text-align: right; }
+      .footer .map iframe {
+        width: 100%;
+        height: 40vh; }
+      .footer .map .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 500px;
+        width: 528px; }
+
+  .location-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25%; }
+    .location-info p {
+      height: 100%; }
+      .location-info p .address {
+        color: lightgreen; }
+      .location-info p a {
+        text-decoration: none;
+        color: lightgreen; }
+        .location-info p a:hover {
+          color: #0000FF; }
+
+  .sub-footer {
+    border: 1px dashed yellow;
+    display: flex;
+    height: 5vh;
+    justify-content: center; }
+    .sub-footer p {
+      width: 30%;
+      border: 1px dashed white;
+      margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */

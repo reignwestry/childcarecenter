@@ -1,0 +1,63 @@
+/*!
+ * Copyright (c) 2017. Reign Designs, Inc.
+ */
+
+
+//footer
+
+footer{
+	background-color: brown;
+	width: 100vw;
+	height: 50vh;
+	text-align: center;
+
+	& > a {
+		text-decoration: none;
+		color: lightgreen;
+	}
+	P{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 1.5rem;
+		color: white;
+
+		span{
+			font-size: 2rem;
+		}
+	}
+
+	.location {
+
+	}
+	.map {
+		background-color: black;
+		height: 50%;
+		width: 100%;
+	}
+
+}
+
+.sub-footer {
+	height: 10vh;
+	width: 100%;
+	border: 1px dotted white;
+	margin-bottom: 0;
+
+	p{
+		text-align: center;
+		color: #fff;
+		font-size: 2em;
+
+		span{
+			font-size: 1.5em;
+		}
+		a{
+			text-decoration: none;
+			color: #0ff;
+
+			&:hover{
+				color: $highlight;
+			}
+		}
+	}
+}
